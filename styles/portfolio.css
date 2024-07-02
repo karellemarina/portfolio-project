@@ -1,0 +1,50 @@
+:root {
+  --branding-color: #000000;
+  --text-font-family: "Sarabun", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.hero {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/258/original/AdobeStock_789025050.jpg?1719940204");
+  width: 1442px;
+  height: 808px;
+  margin-top: 80px;
+}
+
+h1,
+h2 {
+  color: white;
+  font-family: var(--branding-color);
+  font-weight: 500;
+  font-style: normal;
+  padding-left: 140px;
+}
+
+h1 {
+  font-size: 68px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 68px;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 30px;
+  color: white;
+  font-size: 26px;
+  width: 350px;
+  height: 50px;
+  margin-left: 140px;
+  font-family: var(--text-font-family);
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
