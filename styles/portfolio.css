@@ -31,7 +31,8 @@ body {
 
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     font-size: 28px;
   }
 }
@@ -72,4 +73,36 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.world-clock {
+  text-align: center;
+  color: white;
+  position: relative;
+  display: flex;
+}
+
+h4 {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  padding: 175.5px;
+  font-size: 48px;
+  font-family: var(--text-font-family);
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.895);
 }
