@@ -33,15 +33,12 @@ body {
     top: 0;
     bottom: 0;
     position: absolute;
-    display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     color: white;
-    font-size: 28px;
     font-family: var(--text-font-family);
-    text-align: left;
-    padding: 40px;
+    padding: 60px;
   }
 
   h1,
