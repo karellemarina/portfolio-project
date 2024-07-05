@@ -8,17 +8,12 @@ body {
 }
 
 .hero {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/258/original/AdobeStock_789025050.jpg?1719940204");
   width: 1442px;
-  height: 650px;
+  height: 750px;
   margin-top: 80px;
-  position: relative;
-}
-
-.presentation {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  padding-top: 150px;
+  text-align: left;
+  padding-top: 140px;
 }
 
 h1,
