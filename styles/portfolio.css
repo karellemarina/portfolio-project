@@ -69,4 +69,7 @@ h3 {
   font-weight: 500;
   font-style: normal;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
