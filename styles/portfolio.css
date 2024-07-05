@@ -35,6 +35,15 @@ h2 {
   padding-top: 10px;
 }
 
+h3 {
+  font-size: 58px;
+  color: white;
+  text-align: center;
+  font-family: var(--branding-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 30px;
