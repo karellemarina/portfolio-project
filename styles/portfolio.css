@@ -41,7 +41,7 @@ body {
     font-size: 28px;
     font-family: var(--text-font-family);
     text-align: left;
-    padding-right: 100px;
+    padding: 40px;
   }
 
   h1,
