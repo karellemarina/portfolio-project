@@ -38,7 +38,6 @@ body {
     margin: auto;
     color: white;
     font-family: var(--text-font-family);
-    padding: 60px;
   }
 
   h1,
@@ -106,4 +105,16 @@ h4 {
   padding: 175.5px;
   font-size: 48px;
   font-family: var(--text-font-family);
+}
+
+p {
+  color: white;
+}
+
+.skill {
+  padding: 0 0 0 0;
+}
+
+h6 {
+  color: white;
 }
