@@ -14,15 +14,6 @@ a {
   font-family: var(--text-font-family);
 }
 
-.portfolio {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.test .test2 {
-  display: flex;
-}
-
 .hero {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/258/original/AdobeStock_789025050.jpg?1719940204");
   width: 1442px;
@@ -189,4 +180,8 @@ h6 {
 .skill {
   display: flex;
   justify-content: space-between;
+}
+
+.container-fluid {
+  width: 100%;
 }
