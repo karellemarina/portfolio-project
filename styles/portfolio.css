@@ -15,7 +15,7 @@ a {
 }
 
 .hero {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/258/original/AdobeStock_789025050.jpg?1719940204");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/897/original/AdobeStock_238911702.jpg?1720276257");
   width: 1442px;
   height: 800px;
   margin-top: 20px;
@@ -27,7 +27,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .hero {
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/258/original/AdobeStock_789025050.jpg?1719940204");
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/897/original/AdobeStock_238911702.jpg?1720276257");
     width: 1442px;
     height: 800px;
     margin-top: 80px;
@@ -128,6 +128,7 @@ h3 {
   color: white;
   position: relative;
   display: flex;
+  justify-content: center;
 }
 
 .poem-generator {
@@ -135,6 +136,7 @@ h3 {
   color: white;
   position: relative;
   display: flex;
+  justify-content: center;
 }
 
 .python {
@@ -142,6 +144,7 @@ h3 {
   color: white;
   position: relative;
   display: flex;
+  justify-content: center;
 }
 
 .weather_app {
@@ -149,6 +152,7 @@ h3 {
   color: white;
   position: relative;
   display: flex;
+  justify-content: center;
 }
 
 h4 {
@@ -163,6 +167,14 @@ h4 {
   padding: 175.5px;
   font-size: 48px;
   font-family: var(--text-font-family);
+}
+
+a.btn.btn-warning.btn-lg {
+  color: var(--paragraph-color);
+}
+
+a.btn.btn-warning.click.mt-3.mb-4 {
+  color: var(--paragraph-color);
 }
 
 p {
