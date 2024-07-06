@@ -65,6 +65,8 @@ body {
     font-family: var(--text-font-family);
     padding-left: 1px;
     text-align: center;
+    width: 100%;
+    left: 0;
   }
 
   h1,
