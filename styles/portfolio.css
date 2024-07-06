@@ -15,15 +15,6 @@ span {
   font-family: var(--text-font-family);
 }
 
-.navbar-toggler-icon {
-  font-family: var(--text-font-family);
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
 .hero {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/897/original/AdobeStock_238911702.jpg?1720276257");
   width: 1442px;
