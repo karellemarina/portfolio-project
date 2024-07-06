@@ -45,6 +45,14 @@ a {
     padding-left: 10px;
   }
 
+  .portfolio {
+    display: flex;
+  }
+
+  .test .test2 {
+    display: flex;
+  }
+
   .world-clock {
     text-align: center;
     color: white;
