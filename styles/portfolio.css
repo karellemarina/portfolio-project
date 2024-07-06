@@ -44,6 +44,14 @@ a {
     padding-left: 10px;
   }
 
+  .navbar-toggler-icon {
+    font-family: var(--text-font-family);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .world-clock {
     text-align: center;
     color: white;
