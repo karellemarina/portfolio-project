@@ -9,7 +9,8 @@ body {
 }
 
 p,
-a {
+a,
+span {
   color: var(--paragraph-color);
   font-family: var(--text-font-family);
 }
@@ -20,6 +21,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .hero {
@@ -50,6 +52,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
   }
 
   .world-clock {
