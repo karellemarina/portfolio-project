@@ -14,6 +14,10 @@ a {
   font-family: var(--text-font-family);
 }
 
+button {
+  color: white;
+}
+
 .hero {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/897/original/AdobeStock_238911702.jpg?1720276257");
   width: 1442px;
