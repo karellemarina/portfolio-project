@@ -9,7 +9,8 @@ body {
 }
 
 p,
-a {
+a,
+span {
   color: var(--paragraph-color);
   font-family: var(--text-font-family);
 }
