@@ -33,7 +33,7 @@ a {
   padding-right: 50px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 680px) {
   .hero {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/897/original/AdobeStock_238911702.jpg?1720276257");
     width: 1442px;
