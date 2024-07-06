@@ -63,9 +63,9 @@ body {
     position: absolute;
     justify-content: center;
     align-items: center;
-    margin: auto;
     color: white;
     font-family: var(--text-font-family);
+    padding-left: 1px;
   }
 
   h1,
