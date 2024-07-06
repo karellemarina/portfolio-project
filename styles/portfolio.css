@@ -9,10 +9,14 @@ body {
 }
 
 p,
-a,
-span {
+a {
   color: var(--paragraph-color);
   font-family: var(--text-font-family);
+}
+
+.navbar-toggler-icon {
+  font-family: var(--text-font-family);
+  font-size: 8px;
 }
 
 button {
