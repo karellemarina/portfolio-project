@@ -29,6 +29,34 @@ body {
     padding-left: 10px;
   }
 
+  .world-clock {
+    text-align: center;
+    color: white;
+    position: relative;
+    display: flex;
+  }
+
+  .poem-generator {
+    text-align: center;
+    color: white;
+    position: relative;
+    display: flex;
+  }
+
+  .python {
+    text-align: center;
+    color: white;
+    position: relative;
+    display: flex;
+  }
+
+  .weather_app {
+    text-align: center;
+    color: white;
+    position: relative;
+    display: flex;
+  }
+
   h4 {
     top: 0;
     bottom: 0;
@@ -38,8 +66,6 @@ body {
     margin: auto;
     color: white;
     font-family: var(--text-font-family);
-    padding-right: 0;
-    margin-right: 0;
   }
 
   h1,
