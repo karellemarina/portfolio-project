@@ -45,6 +45,14 @@ a {
     padding-left: 10px;
   }
 
+  .portfolio {
+    display: none;
+  }
+
+  .test .test2 {
+    display: none;
+  }
+
   .world-clock {
     text-align: center;
     color: white;
@@ -112,8 +120,6 @@ h3 {
 }
 
 .btn.btn-branding {
-  background: var(--branding-color);
-  border-radius: 30px;
   color: white;
   font-size: 26px;
   width: 300px;
