@@ -68,11 +68,6 @@ button {
     display: flex;
   }
 
-  .navbar-toggler-icon {
-    width: 40px;
-    height: 40px;
-  }
-
   h4 {
     top: 0;
     bottom: 0;
