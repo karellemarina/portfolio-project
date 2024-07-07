@@ -36,6 +36,10 @@ a {
     padding-left: 10px;
   }
 
+  .navbar-toggler-icon {
+    font-size: 18px;
+  }
+
   .world-clock {
     text-align: center;
     color: white;
