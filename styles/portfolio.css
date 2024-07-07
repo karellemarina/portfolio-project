@@ -26,6 +26,14 @@ span {
   padding-right: 50px;
 }
 
+.navbar-toggler-icon {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 600px) {
   .hero {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/897/original/AdobeStock_238911702.jpg?1720276257");
@@ -40,6 +48,10 @@ span {
   .navbar-toggler-icon {
     font-size: 18px;
     color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .world-clock {
