@@ -10,7 +10,8 @@ body {
 
 p,
 a,
-span {
+span,
+h5 {
   color: var(--paragraph-color);
   font-family: var(--text-font-family);
 }
@@ -35,6 +36,29 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h1,
+h2,
+h4 {
+  font-size: 65px;
+  color: white;
+  font-family: var(--branding-color);
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 58px;
+  color: white;
+  text-align: center;
+  font-family: var(--branding-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h5 {
+  font-size: 28px;
 }
 
 @media (max-width: 600px) {
@@ -103,27 +127,9 @@ span {
   h2,
   h3,
   h4,
-  h {
+  h5 {
     font-size: 28px;
   }
-}
-
-h1,
-h2 {
-  font-size: 65px;
-  color: white;
-  font-family: var(--branding-color);
-  font-weight: 500;
-  font-style: normal;
-}
-
-h3 {
-  font-size: 58px;
-  color: white;
-  text-align: center;
-  font-family: var(--branding-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .btn.btn-branding {
