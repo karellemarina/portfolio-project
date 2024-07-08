@@ -73,6 +73,7 @@ span {
     color: white;
     position: relative;
     display: flex;
+    padding-left: 30px;
   }
 
   .poem-generator {
