@@ -39,7 +39,9 @@ span {
 
 @media (max-width: 600px) {
   .hero {
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/258/original/AdobeStock_869613637_%282%29_%281%29.jpg?1720465818");
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/258/original/AdobeStock_869613637_%282%29_%281%29.jpg?1720465818"),
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
     width: 1442px;
     height: 800px;
     margin-top: 80px;
