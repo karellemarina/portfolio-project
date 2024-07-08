@@ -10,7 +10,8 @@ body {
 
 p,
 span,
-h5 {
+h5,
+a {
   color: var(--paragraph-color);
   font-family: var(--text-font-family);
 }
@@ -71,6 +72,14 @@ h5 {
     text-align: left;
     padding-top: 140px;
     padding-left: 10px;
+  }
+
+  p,
+  span,
+  h5,
+  a {
+    color: var(--paragraph-color);
+    font-family: var(--text-font-family);
   }
 
   .navbar-toggler-icon {
