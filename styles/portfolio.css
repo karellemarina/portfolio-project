@@ -26,6 +26,19 @@ span {
   padding-right: 50px;
 }
 
+.hero2 {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/219/original/hero_about_2.jpg?1720451533"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  width: 1442px;
+  height: 800px;
+  margin-top: 20px;
+  text-align: left;
+  padding-top: 180px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .navbar-toggler-icon {
   font-size: 18px;
   color: white;
@@ -34,6 +47,7 @@ span {
   justify-content: center;
   align-items: center;
 }
+
 @media (max-width: 600px) {
   .hero {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/897/original/AdobeStock_238911702.jpg?1720276257");
@@ -214,4 +228,33 @@ h6 {
 
 .container-fluid {
   width: 100%;
+}
+
+.photo-about {
+  --paragraph-color: #ffffff;
+}
+
+.texte-about {
+  --paragraph-color: #ffffff;
+}
+
+.presentation {
+  display: flex;
+  justify-content: left;
+  text-align: justify;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.photopresentation {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.chess {
+  height: 300px;
+  width: auto;
 }
