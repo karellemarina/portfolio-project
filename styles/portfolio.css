@@ -69,11 +69,10 @@ span {
   }
 
   .world-clock {
-    text-align: center;
+    text-align: left;
     color: white;
     position: relative;
     display: flex;
-    padding-left: 30px;
   }
 
   .poem-generator {
