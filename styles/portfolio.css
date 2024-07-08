@@ -16,20 +16,7 @@ span {
 }
 
 .hero {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/897/original/AdobeStock_238911702.jpg?1720276257");
-  width: 1442px;
-  height: 800px;
-  margin-top: 20px;
-  text-align: left;
-  padding-top: 180px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.hero2 {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/258/original/AdobeStock_869613637_%282%29_%281%29.jpg?1720465818"),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-blend-mode: overlay;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/258/original/AdobeStock_869613637_%282%29_%281%29.jpg?1720465818");
   width: 1442px;
   height: 800px;
   margin-top: 20px;
