@@ -9,7 +9,6 @@ body {
 }
 
 p,
-a,
 span,
 h5 {
   color: var(--paragraph-color);
@@ -215,14 +214,6 @@ h4 {
   padding: 175.5px;
   font-size: 48px;
   font-family: var(--text-font-family);
-}
-
-a.btn.btn-warning.btn-lg {
-  color: var(--paragraph-color);
-}
-
-a.btn.btn-warning.click.mt-3.mb-4 {
-  color: var(--paragraph-color);
 }
 
 p {
