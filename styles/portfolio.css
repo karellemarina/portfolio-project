@@ -248,8 +248,9 @@ h6 {
 }
 
 .skill {
+  justify-content: center;
   display: flex;
-  justify-content: space-between;
+  text-align: center;
 }
 
 .container-fluid {
