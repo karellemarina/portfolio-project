@@ -61,6 +61,13 @@ h5 {
   font-size: 28px;
 }
 
+.discover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .hero {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/258/original/AdobeStock_869613637_%282%29_%281%29.jpg?1720465818"),
