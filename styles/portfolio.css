@@ -258,3 +258,10 @@ h6 {
   height: 300px;
   width: auto;
 }
+
+.projects {
+  padding-top: 100px;
+  margin-top: 140px;
+  font-size: 68px;
+  text-align: center;
+}
