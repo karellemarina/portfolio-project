@@ -114,10 +114,8 @@ span {
     position: absolute;
     color: white;
     font-family: var(--text-font-family);
-    padding-left: 1px;
+    padding-left: 10px;
     text-align: left;
-    width: 100%;
-    left: 0;
   }
 
   h1,
