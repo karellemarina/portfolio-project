@@ -176,12 +176,20 @@ h5 {
     padding-bottom: 20px;
   }
 
+  .together {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
   .contactbox {
     text-align: center;
     color: white;
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
 }
 
