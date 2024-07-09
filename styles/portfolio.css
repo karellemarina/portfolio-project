@@ -338,3 +338,10 @@ footer .email-link:hover {
 footer {
   margin: 60px 0;
 }
+
+.final {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
