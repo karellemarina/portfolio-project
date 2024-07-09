@@ -222,6 +222,24 @@ h5 {
   justify-content: center;
 }
 
+.work {
+   
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.contactbox {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+}
+
 h4 {
   top: 0;
   bottom: 0;
