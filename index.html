@@ -20,144 +20,224 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="styles/portfolio.css" />
     <title>Portfolio - Karelle Bolon</title>
   </head>
   <body>
     <div class="container">
- <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
-  <div class="container-fluid d-flex flex-row justify-content-evenly">
-    <div class="portfolio">
-    <a class="navbar-brand" href="index.html">PORTFOLIO</a>
+      <nav
+        class="navbar navbar-expand-lg fixed-top"
+        style="background-color: black"
+      >
+        <div class="container-fluid d-flex flex-row justify-content-evenly">
+          <div class="portfolio">
+            <a class="navbar-brand" href="index.html">PORTFOLIO</a>
+          </div>
+          <div class="center">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"> MENU </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active pr-10"
+                    aria-current="page"
+                    href="index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active pr-10"
+                    aria-current="page"
+                    href="about.html"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link pr-10 pl-10" href="mywork.html">MY WORK</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link pl-10" href="contact.html">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="social">
+            <span class="navbar-text">
+              <a
+                href="https://www.linkedin.com/in/karellebolon/"
+                target="_blank"
+                class="btn btn-primary btn-lg"
+                >LinkedIn</a
+              >
+              <a
+                href="https://github.com/karellemarina"
+                target="_blank"
+                class="btn btn-danger btn-lg"
+                >GitHub</a
+              >
+            </span>
+          </div>
+        </div>
+      </nav>
+      <div class="hero img-fluid">
+        <h1>Karelle Bolon</h1>
+        <h2>
+          Front End Developer <br />
+          based in Berlin
+        </h2>
+        <a href="contact.html" class="btn btn-danger btn-lg contactme"
+          >Contact me</a
+        >
+      </div>
+
+      <div class="skills m-4">
+        <h3>Skills & Interests</h3>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <p class="border border-1 m-4 p-4 interest">FRONT END</p>
+        </div>
+        <div class="col-sm-3">
+          <p class="border border-1 m-4 p-4 interest">BACK END</p>
+        </div>
+        <div class="col-sm-3">
+          <p class="border border-1 m-4 p-4 interest">CHESS</p>
+        </div>
+        <div class="col-sm-3">
+          <p class="border border-1 m-4 p-4 interest">PHOTOGRAPHY</p>
+        </div>
+      </div>
+      <div class="projects pt-70 mt-4 mb-5">
+        <h3>Discover my projects</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="d-inline">
+            <div class="world-clock">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/976/original/AdobeStock_347337357.jpg?1720304091"
+                class="img-fluid"
+              />
+              <h4>World Clock</h4>
+            </div>
+            <div class="skill">
+              <div class="test mt-3 mb-4 text-center">
+                Skills: HTML, CSS, JS, Moment.JS
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="d-inline">
+            <div class="poem-generator">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/977/original/AdobeStock_555417584.jpg?1720304836"
+                class="img-fluid"
+              />
+              <h4>Poem Generator</h4>
+            </div>
+            <div class="skill">
+              <div class="test mt-3 mb-4 text-center">
+                Skills: HTML, CSS, JS, AI
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="d-inline">
+            <div class="python">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/900/original/AdobeStock_832609937.jpg?1720277403"
+                class="img-fluid"
+              />
+              <h4>Python Advanced</h4>
+            </div>
+            <div class="skill">
+              <div class="test mt-3 mb-4 text-center">
+                Skills: Basics & Advanced Python
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="d-inline">
+            <div class="weather_app">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/898/original/AdobeStock_213826565.jpg?1720277115"
+                class="img-fluid"
+              />
+              <h4>Weather App</h4>
+            </div>
+            <div class="skill">
+              <div class="test mt-3 mb-4 text-center">
+                Skills: HTML, CSS, JS, API
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="discover">
+        <button type="button" class="btn btn-danger mt-3 mb-4" target="_blank">
+          <a href="mywork.html">Discover my projects</a>
+        </button>
+      </div>
     </div>
-    <div class="center">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">
-        MENU
-      </span>
-    </button>
     
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active pr-10" aria-current="page" href="index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active pr-10" aria-current="page" href="about.html">ABOUT</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link pr-10 pl-10" href="mywork.html">MY WORK</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link pl-10" href="contact.html">CONTACT</a>
-        </li>
-      </ul>
+    <footer>
+      <div class="row">
+        <div class="col-sm-6 d-inline">
+          <div class="d-inline text-center">
+          <h4>Work Inquiry</h4>
+          <p class="skill text-muted pb-5">Let's work together</p>
+          </div>
+        </div>
+        <div class="col-sm-6 d-inline text-center">
+            <button
+            type="button"
+            class="btn btn-danger mt-3 mb-4"
+            target="_blank"
+          >
+            <a href="mywork.html">Contact me</a>
+          </button>
+        </div>
       </div>
       </div>
-      <div class="social">
-      <span class="navbar-text">
-        <a href="https://www.linkedin.com/in/karellebolon/" target="_blank" class="btn btn-primary btn-lg">LinkedIn</a>
-        <a href="https://github.com/karellemarina" target="_blank" class="btn btn-danger btn-lg">GitHub</a>
-      </span>
+      <div class="d-flex justify-content-center mt-5">
+        <a href="mailto:karelle.bolon@outlook.com" class="email-link"
+          >karelle.bolon@outlook.com</a
+        >
       </div>
-    
+      <div class="social_links d-flex justify-content-center m-5">
+        <a href="https://github.com/karellemarina"
+          ><i
+            class="fa fa-github"
+            target="_blank"
+            style="font-size: 48px; color: red"
+          ></i
+        ></a>
+       </div>
+    </footer>
   </div>
-</nav>
-    <div class="hero img-fluid">
-      <h1>Karelle Bolon</h1>
-      <h2>
-        Front End Developer <br />
-        based in Berlin
-      </h2>
-      <a href="contact.html" class="btn btn-danger btn-lg contactme">Contact me</a>
-    </div>
-
-    <div class="skills m-4">
-      <h3>Skills & Interests</h3>
-    </div>
-    <div class="row">
-      <div class="col-sm-3">
-        <p class="border border-1 m-4 p-4 interest">FRONT END</p>
-      </div>
-      <div class="col-sm-3">
-        <p class="border border-1 m-4 p-4 interest">BACK END</p>
-      </div>
-      <div class="col-sm-3">
-        <p class="border border-1 m-4 p-4 interest">CHESS</p>
-      </div>
-      <div class="col-sm-3">
-        <p class="border border-1 m-4 p-4 interest">PHOTOGRAPHY</p>
-      </div>
-    </div>
-    <div class="projects pt-70 mt-4 mb-5">
-      <h3>Discover my projects</h3>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="d-inline">
-          <div class="world-clock">
-            <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/976/original/AdobeStock_347337357.jpg?1720304091"
-              class="img-fluid"
-            />
-            <h4>World Clock</h4>
-          </div>
-          <div class="skill">
-            <div class="test mt-3 mb-4 text-center">Skills: HTML, CSS, JS, Moment.JS</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="d-inline">
-          <div class="poem-generator">
-            <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/977/original/AdobeStock_555417584.jpg?1720304836"
-              class="img-fluid"
-            />
-            <h4>Poem Generator</h4>
-          </div>
-          <div class="skill">
-            <div class="test mt-3 mb-4 text-center">Skills: HTML, CSS, JS, AI</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="d-inline">
-          <div class="python">
-            <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/900/original/AdobeStock_832609937.jpg?1720277403"
-              class="img-fluid"
-            />
-            <h4>Python Advanced</h4>
-          </div>
-          <div class="skill">
-            <div class="test mt-3 mb-4 text-center">Skills: Basics & Advanced Python</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="d-inline">
-          <div class="weather_app">
-            <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/898/original/AdobeStock_213826565.jpg?1720277115"
-              class="img-fluid"
-            />
-            <h4>Weather App</h4>
-          </div>
-          <div class="skill">
-            <div class="test mt-3 mb-4 text-center">Skills: HTML, CSS, JS, API</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="discover">
-    <button type="button" class="btn btn-danger mt-3 mb-4" target="_blank"><a href="mywork.html">Discover my projects</a></button>
-    </div>
   </body>
-  <footer></footer>
 </html>
