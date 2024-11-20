@@ -28,6 +28,10 @@ a {
   border-radius: 4px;
 }
 
+.resume {
+  padding-top: 180px;
+}
+
 .navbar-toggler-icon {
   font-size: 18px;
   color: white;
