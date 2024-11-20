@@ -78,8 +78,9 @@ h5 {
     height: 350px;
     margin-top: 50px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 10px;
+    justify-content: center;
   }
 
   .social {
