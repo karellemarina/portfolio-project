@@ -83,6 +83,10 @@ h5 {
   }
 
   .social {
+    display: none;
+  }
+
+  .social {
     text-align: center;
   }
 
@@ -217,10 +221,6 @@ h5 {
   align-items: center;
   border-radius: 4px;
   background-color: #01092b;
-}
-
-.social {
-  display: none;
 }
 
 .world-clock {
