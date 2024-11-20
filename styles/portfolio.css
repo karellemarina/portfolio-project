@@ -216,7 +216,19 @@ h5 {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  background-color: #170643;
+  background-color: #01092b;
+}
+
+.linkedin {
+  border-radius: 4px;
+  border-color: white;
+  border: 1px;
+}
+
+.github {
+  border-radius: 4px;
+  border-color: white;
+  border: 1px;
 }
 
 .world-clock {
