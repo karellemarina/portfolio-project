@@ -88,6 +88,8 @@ h5 {
     margin-top: 50px;
     text-align: left;
     justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
   }
 
   .social {
