@@ -105,6 +105,11 @@ h5 {
     text-align: center;
   }
 
+  h5 {
+    text-align: center;
+    padding-top: 40px;
+  }
+
   .social {
     display: none;
   }
