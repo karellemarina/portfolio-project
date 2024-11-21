@@ -81,6 +81,10 @@ h5 {
     justify-content: center;
   }
 
+  body {
+    background-image: none;
+  }
+
   .social {
     display: none;
   }
