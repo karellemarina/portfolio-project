@@ -23,8 +23,13 @@ a:hover {
   font-weight: bold;
 }
 
-h5 {
+h5,
+h6 {
   text-align: center;
+}
+
+h6 {
+  font-size: 40px;
 }
 
 p,
@@ -187,12 +192,13 @@ h5 {
   h2,
   h3,
   h4,
-  h5 {
+  h5,
+  h6 {
     font-size: 28px;
   }
 
   h3 {
-    padding-top: 10px;
+    padding-top: 5px;
   }
 
   .projects {
