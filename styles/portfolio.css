@@ -84,10 +84,10 @@ h5 {
   .hero {
     background-blend-mode: overlay;
     width: 1442px;
-    height: 350px;
+    height: 450px;
     margin-top: 50px;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 5px;
     justify-content: center;
   }
 
