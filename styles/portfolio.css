@@ -45,7 +45,7 @@ a {
   width: 1442px;
   height: 300px;
   margin-top: 20px;
-  text-align: left;
+  text-align: justify;
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
@@ -100,7 +100,7 @@ h5 {
     width: 1442px;
     height: 430px;
     margin-top: 50px;
-    text-align: left;
+    text-align: justify;
     justify-content: center;
     padding-top: 7px;
     padding-bottom: 10px;
