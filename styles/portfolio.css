@@ -13,6 +13,11 @@ body {
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/068/original/result_AdobeStock_321981056.jpeg?1732199995");
 }
 
+.red {
+  color: red;
+  text-decoration: underline;
+}
+
 a:hover {
   color: red;
   font-weight: bold;
