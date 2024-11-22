@@ -260,6 +260,15 @@ h5 {
   background-color: #01092b;
 }
 
+button {
+  width: 250px;
+  height: 90px;
+}
+
+button:hover {
+  background-color: #9d239a;
+}
+
 .world-clock {
   border-radius: 4px;
   text-align: center;
