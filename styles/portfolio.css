@@ -19,7 +19,7 @@ body {
 }
 
 a:hover {
-  color: red;
+  color: rgb(142, 247, 252);
   font-weight: bold;
 }
 
@@ -47,8 +47,7 @@ a {
   margin-top: 20px;
   text-align: justify;
   padding-top: 40px;
-  padding-left: 50px;
-  padding-right: 50px;
+
   border-radius: 4px;
 }
 
@@ -94,6 +93,10 @@ h5 {
   text-align: center;
 }
 
+.testtest {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .hero {
     background-blend-mode: overlay;
@@ -112,7 +115,7 @@ h5 {
 
   h6 {
     text-align: center;
-    padding-top: 90px;
+    padding-top: 20px;
   }
 
   .social {
@@ -265,7 +268,7 @@ h5 {
   height: 90px;
 }
 
-button:hover {
+.test:hover {
   background-color: #9d239a;
 }
 
@@ -285,6 +288,13 @@ button:hover {
   display: flex;
   justify-content: center;
   border-radius: 4px;
+}
+
+.testtest {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 .python {
