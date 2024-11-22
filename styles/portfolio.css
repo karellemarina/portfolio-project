@@ -93,9 +93,18 @@ h5 {
   text-align: center;
 }
 
+.test {
+  width: 350px;
+  height: 90px;
+  text-align: center;
+}
+
+.testtesttest {
+  text-align: center;
+}
+
 .testtest {
   text-align: center;
-  align-items: center;
   justify-content: center;
 }
 
