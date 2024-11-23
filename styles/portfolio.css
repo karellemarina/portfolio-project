@@ -349,9 +349,13 @@ h6 {
 }
 
 .test {
-  width: 350px;
+  width: 250px;
   height: 90px;
   text-align: center;
+}
+
+.social {
+  display: none;
 }
 
 .testtesttest {
