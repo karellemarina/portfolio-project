@@ -349,10 +349,18 @@ h6 {
 }
 
 .test {
-  color: white;
-  justify-content: center;
-  display: flex;
+  width: 350px;
+  height: 90px;
   text-align: center;
+}
+
+.testtesttest {
+  text-align: center;
+}
+
+.testtest {
+  text-align: center;
+  justify-content: center;
 }
 
 .skill {
