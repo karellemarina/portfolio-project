@@ -120,6 +120,25 @@ h5 {
     padding-bottom: 10px;
   }
 
+  .social {
+    display: none;
+  }
+
+  .test {
+    width: 250px;
+    height: 90px;
+    text-align: center;
+  }
+
+  .testtesttest {
+    text-align: center;
+  }
+
+  .testtest {
+    text-align: center;
+    justify-content: center;
+  }
+
   .presentationkarelle {
     text-align: center;
   }
@@ -346,25 +365,6 @@ p {
 
 h6 {
   color: white;
-}
-
-.test {
-  width: 250px;
-  height: 90px;
-  text-align: center;
-}
-
-.social {
-  display: none;
-}
-
-.testtesttest {
-  text-align: center;
-}
-
-.testtest {
-  text-align: center;
-  justify-content: center;
 }
 
 .skill {
